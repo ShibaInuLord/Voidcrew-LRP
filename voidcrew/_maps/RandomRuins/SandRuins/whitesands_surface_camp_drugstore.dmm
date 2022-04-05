@@ -23,10 +23,10 @@
 /area/whitesands/surface/outdoors)
 "e" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/whitesands/surface/outdoors)
@@ -34,7 +34,7 @@
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/cornchips,
 /obj/item/reagent_containers/food/snacks/butterdog,
-/obj/item/reagent_containers/food/snacks/candy,
+/obj/item/food/candy,
 /obj/item/reagent_containers/food/snacks/canned/peaches,
 /obj/item/reagent_containers/food/drinks/bottle/sarsaparilla,
 /turf/open/floor/wood,
@@ -112,8 +112,8 @@
 /area/whitesands/surface/outdoors)
 "t" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/minor/kittyears_or_rabbitears,
-/obj/effect/spawner/lootdrop/minor/kittyears_or_rabbitears,
+/obj/effect/spawner/random/clothing/kittyears_or_rabbitears,
+/obj/effect/spawner/random/clothing/kittyears_or_rabbitears,
 /turf/open/floor/wood,
 /area/whitesands/surface/outdoors)
 "u" = (
@@ -147,7 +147,7 @@
 	},
 /area/whitesands/surface/outdoors)
 "A" = (
-/obj/machinery/vending/cola/random,
+/obj/effect/spawner/random/vending/colavend,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -169,8 +169,8 @@
 	},
 /area/whitesands/surface/outdoors)
 "E" = (
-/obj/effect/spawner/lootdrop/costume,
-/obj/effect/spawner/lootdrop/gloves,
+/obj/effect/spawner/random/clothing/costume,
+/obj/effect/spawner/random/clothing/gloves,
 /obj/structure/window,
 /obj/structure/rack,
 /turf/open/floor/wood,
@@ -188,7 +188,7 @@
 /turf/open/floor/wood,
 /area/whitesands/surface/outdoors)
 "G" = (
-/obj/effect/spawner/lootdrop/costume,
+/obj/effect/spawner/random/clothing/costume,
 /obj/structure/window,
 /obj/structure/rack,
 /turf/open/floor/wood,
@@ -215,13 +215,13 @@
 "K" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/chococornet,
-/obj/item/reagent_containers/food/snacks/candy,
+/obj/item/food/candy,
 /obj/item/reagent_containers/food/snacks/canned/peaches,
 /turf/open/floor/wood,
 /area/whitesands/surface/outdoors)
 "M" = (
-/obj/effect/spawner/lootdrop/costume,
-/obj/effect/spawner/lootdrop/gloves,
+/obj/effect/spawner/random/clothing/costume,
+/obj/effect/spawner/random/clothing/gloves,
 /obj/item/shard{
 	icon_state = "tiny"
 	},
@@ -239,15 +239,15 @@
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/chewable/bubblegum/happiness,
 /obj/item/reagent_containers/food/snacks/candy_corn,
-/obj/item/reagent_containers/food/snacks/chocolatebar,
+/obj/item/food/chocolatebar,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/whitesands/surface/outdoors)
 "Q" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/chocolatebunny,
-/obj/item/reagent_containers/food/snacks/candy,
-/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/food/candy,
+/obj/item/food/canned/beans,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
 	dir = 1
@@ -258,7 +258,7 @@
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/cheesynachos,
 /obj/item/reagent_containers/food/snacks/branrequests,
-/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/food/canned/beans,
 /obj/item/reagent_containers/food/drinks/bottle/sarsaparilla,
 /turf/open/floor/wood,
 /area/whitesands/surface/outdoors)

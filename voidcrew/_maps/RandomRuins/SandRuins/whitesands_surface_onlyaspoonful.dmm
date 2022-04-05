@@ -190,7 +190,7 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/c9mm,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "ka" = (
@@ -451,7 +451,7 @@
 "Fi" = (
 /obj/machinery/autolathe,
 /obj/machinery/camera{
-	dir = 5
+	dir = 10
 	},
 /turf/open/floor/plastic,
 /area/ruin/powered)
@@ -465,7 +465,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "Hl" = (
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/effect/mob_spawn/corpse/human/nanotrasenassaultsoldier,
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor6"
 	},
@@ -508,7 +508,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "Jm" = (
-/obj/machinery/camera,
+/obj/machinery/camera/directional/north,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "Jt" = (
@@ -526,7 +526,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "KY" = (
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/effect/mob_spawn/corpse/human/nanotrasenassaultsoldier,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plastic,
@@ -657,7 +657,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "RN" = (
-/obj/machinery/camera,
+/obj/machinery/camera/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/material,
 /area/ruin/powered)
@@ -716,9 +716,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "WA" = (
-/obj/machinery/camera{
-	dir = 1
-	},
+/obj/machinery/camera/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plastic,
 /area/ruin/powered)
@@ -734,7 +732,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "Zr" = (
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/effect/mob_spawn/corpse/human/nanotrasenassaultsoldier,
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor4"
 	},

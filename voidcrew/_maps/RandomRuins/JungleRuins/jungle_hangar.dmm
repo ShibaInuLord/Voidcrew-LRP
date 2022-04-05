@@ -206,8 +206,8 @@
 /turf/open/floor/plating,
 /area/ruin/powered)
 "UT" = (
-/obj/mecha/working/ripley,
-/turf/open/floor/mech_bay_recharge_floor,
+/obj/vehicle/sealed/mecha/working/ripley,
+/turf/open/floor/iron/dark,
 /area/ruin/powered)
 "Vj" = (
 /obj/structure/flora/ausbushes/sparsegrass,

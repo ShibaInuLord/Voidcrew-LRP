@@ -52,9 +52,7 @@
 /area/ruin/space/has_grav/scav_mining/entrance)
 "aO" = (
 /obj/machinery/portable_atmospherics/pump,
-/obj/machinery/atmospherics/pipe/manifold/general{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/scav_mining/core)
 "aQ" = (
@@ -120,7 +118,7 @@
 "fB" = (
 /obj/effect/decal/cleanable/oil/streak,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/manifold/general,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/scav_mining/core)
 "ga" = (
@@ -158,7 +156,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/scav_mining/dorm)
 "kW" = (
-/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/iron,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/scav_mining/dorm)
 "lr" = (
@@ -251,7 +249,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/scav_mining/entrance)
 "rM" = (
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
+/obj/effect/mob_spawn/corpse/human/cargo_tech,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -350,9 +348,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold/general{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/scav_mining/core)
 "zo" = (
@@ -413,7 +409,7 @@
 /area/ruin/space/has_grav/scav_mining/entrance)
 "Et" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/iron,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space/has_grav)
 "EB" = (
@@ -436,7 +432,7 @@
 /obj/effect/decal/remains/human,
 /obj/item/pickaxe/drill,
 /obj/item/mining_scanner,
-/obj/item/clothing/suit/space/hardsuit/mining,
+/obj/item/mod/control/pre_equipped/mining,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space/has_grav)
 "Gx" = (
@@ -452,7 +448,7 @@
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 5
 	},
-/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/iron,
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/scav_mining/entrance)
@@ -485,9 +481,7 @@
 /area/ruin/space/has_grav/scav_mining/core)
 "Iu" = (
 /obj/item/stack/medical/bruise_pack,
-/obj/machinery/atmospherics/pipe/manifold/general{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/scav_mining/entrance)
 "Ix" = (
@@ -612,9 +606,7 @@
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/scav_mining/entrance)
 "Sd" = (
-/obj/machinery/power/apc/auto_name/east{
-	pixel_x = 24
-	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/scav_mining/core)
@@ -635,13 +627,11 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/scav_mining/entrance)
 "Ti" = (
-/obj/machinery/power/apc/auto_name/east{
-	pixel_x = 24
-	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/iron,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/scav_mining/entrance)
 "Tw" = (
@@ -690,7 +680,7 @@
 /turf/closed/wall/material,
 /area/ruin/space/has_grav/scav_mining/core)
 "WC" = (
-/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/iron,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/space/has_grav)
 "Xg" = (
@@ -721,7 +711,7 @@
 /area/ruin/space/has_grav/scav_mining/dorm)
 "YF" = (
 /obj/structure/table,
-/obj/machinery/power/apc/auto_name/west{
+/obj/machinery/power/apc/auto_name/directional/west{
 	pixel_x = -24
 	},
 /obj/structure/cable{
@@ -747,9 +737,7 @@
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4
 	},
-/obj/machinery/advanced_airlock_controller{
-	pixel_y = 24
-	},
+/obj/machinery/door_buttons/airlock_controller,
 /obj/machinery/light/small/broken,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/scav_mining/entrance)
